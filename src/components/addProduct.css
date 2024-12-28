@@ -1,0 +1,66 @@
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 7px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+h5 {
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  color: white;
+  background-color: #515151;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+div p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+div input {
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin: 0px 80px 80px 80px;
+  justify-content: flex-start;
+}
+.container .card ul {
+  list-style-type: none;
+  text-align: left;
+}
+.container .card ul li {
+  align-items: center;
+}
